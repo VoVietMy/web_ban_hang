@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+border: 1px solid #000;
+height: auto;
+width: 90%;
+margin: 0 auto;
+}
+.wrapper_chitiet{
+height: auto;
+width: 90%;
+margin: 0 auto;
+}
+.hinhanh_sanpham{
+    float:left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+    border: 1px solid #faebd7;
+    height: 350px;
+    width: 100%; 
+    background-image: url(../images/vovietmy12@gmail.com.png);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+}
+.menu{
+border: 1px solid #7fffd4;
+height: 50px;
+width: 100%;
+background: #00b2ee;
+}
+ul.list_menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 70%;
+    border: 1px solid;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.list_menu li {
+    padding: 5px;
+    margin: 7px;
+    float: left;
+}
+ul.list_menu li:hover{
+    background: rgb(97, 71, 184);
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #ee1289;
+}
+
+ul.list_sidebar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    border: 1px solid ;
+       line-height: 27px;
+}
+ul.list_sidebar li {
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_sidebar li:hover{
+    background: cadetblue;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #ee1289;
+    display: block;
+}
+
+.sidebar{
+    border: 1px solid #faebd7;
+    height: auto;
+    width: 20%; 
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.maincontent{
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: inline-start;
+
+}
+ul.product_list li img{
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+ul.product_list{
+padding: 0;
+margin: 0;
+list-style: none;
+width: 100%;
+}
+ul.product_list li {
+width: 19%;
+border: 1px solid #ddd;
+margin: 5px;
+float: left;;
+height: 300px;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+
+ul.product_list li img{
+    width:100%;
+    }
+
+p.title_product{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.price_product{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e2e2e;
+}
+#main{
+    border: 1px solid #ffd39b;
+height: auto;
+width: 100%;
+}
+.footer{
+    border: 1px solid #98f5ff;
+height: 150px;
+width: 100%;
+background: #00b2ee;
+}
+.clear{
+    clear: both;
+}
+p.footer_copyright{
+    text-align: center;
+    color: #000;
+}
+
+
+i.fa.fa-plus.fa.style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa.style {
+    font-size: 20px;
+    color: #000;
+}
+
+i.fa.fa-plus.fa.style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa.style:hover {
+    color: brown;
+}
+
+.contact-content{
+margin-top: 48px;
+
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info i[class*="ti-"]{
+width: 30px;
+display: inline-block;
+}
+.contact-form{
+    font-size: 15px;
+}
+.contact-form .form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+/* footer section */
+#footer{
+padding: 64px 16px;
+text-align: center;
+}
+#footer .social-list{
+    font-size: 24px;
+    text-align: center;
+}
+#footer .social-list a{
+    color:rgba(0, 0,0, 0.6);
+    text-decoration: none;
+}
+#footer .copyright a:hover,
+#footer .social-list a{
+    color:rgba(0, 0,0, 0.3);
+}
+#footer .copyright{
+    margin-top: 15px;
+    color:rgba(0, 0,0, 0.6);
+}
+#footer .copyright a{
+    color:rgba(0, 0,0, 0.6);
+}
+
+ul.baiviet{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.baiviet li{
+   text-align: center;
+}
